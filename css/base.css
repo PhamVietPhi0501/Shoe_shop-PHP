@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.overflow {
+    overflow: hidden;
+    border-radius: 100px 20px;
+}
+
+.display-flex {
+    display: flex;
+    align-items: center;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-none2 {
+    display: none;
+}
+
+.display-none3 {
+    display: none;
+}
+.padding-4px {
+    padding: 4px;
+}
+
+.padding-left {
+    padding-left: 12px;
+}
+
+.acctive {
+    color: #A0522D;
+}
+
+.boder_red {
+    border: 2px solid red;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
